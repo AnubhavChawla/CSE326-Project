@@ -1,0 +1,72 @@
+IMG{
+WIDTH: 49%:
+HEIGHT: 49%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color: navy;
+  overflow: hidden;}
+li{
+  display: block;
+  width: 120px;
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-right: 1px solid #bbb;}
+a{
+  color: white;
+  padding: 10px;
+  background-color: navy;
+  text-decoration: none;}
+li a:hover{
+  background-color: aqua;}
+.active{
+  background-color: #4CAF50;}
+li:first-child{
+border-right: 0px;}
+li:last-child{
+  border-left: 1px solid #bbb;}
+.row{
+padding: 10px;}
+.rule{
+margin-top:20px;}
+TABLE{
+border-style: single;
+border-collapse:collapse;}
+#bottomnavbar li{
+float: left;}
+#bottomnavbar li.HomePage{
+border-right: 1px solid #bbb;}
+#bottomnavbar li.Contact{
+border-right: 0px;}
+.bottomnavbar{
+ background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;}
+.bottomnavbar a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px}
+.bottomnavbar a:hover {
+  background-color: navy;
+  color: aqua;}
+.bottomnavbar a.active {
+  background-color: #4CAF50;
+  color: white;}
+.lefttable a{
+  color: navy;
+  padding: 10px;
+  background-color: white;
+  text-decoration: none;}
+.lefttable a:hover{
+color: deeppink;
+}
